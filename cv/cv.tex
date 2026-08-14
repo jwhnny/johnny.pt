@@ -1,0 +1,100 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper, top=0.5in, bottom=0.5in, left=0.5in, right=0.5in]{geometry}
+\usepackage[sfdefault]{AlegreyaSans}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{titlesec}
+\raggedright
+\pagestyle{empty}
+
+\input{glyphtounicode}
+\pdfgentounicode=1
+
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\vspace{1pt}\titlerule\vspace{-6.5pt}]
+\renewcommand\labelitemi{$\vcenter{\hbox{\small$\bullet$}}$}
+\setlist[itemize]{itemsep=-2pt, leftmargin=12pt}
+
+
+\begin{document}
+
+\centerline{\Huge Johnny Fernandes}
+
+\vspace{5pt}
+
+
+\centerline{\href{mailto:work@johnny.pt}{work@johnny.pt} | \href{https://github.com/jwhnny}{https://github.com/jwhnny}}
+
+\vspace{-10pt}
+
+\section*{Professional Summary}
+AI-focused Software Engineer with experience building production-grade applications and a strong foundation in Informatics Engineering. Currently pursuing a Master's in Artificial Intelligence at the University of Porto, with academic work in intelligent systems, deep and reinforcement learning, computer vision, and natural language processing. Brings together solid software engineering principles and AI-driven thinking to design scalable, reliable, and intelligent systems.
+
+
+\vspace{-8.5pt}
+
+\section*{Education}
+\textbf{\href{https://fe.up.pt/estudar/mia/?lang=en}{University of Porto}} -- Master's in Artificial Intelligence \hfill \textit{Attending} \\
+\vspace{-4pt}
+\begin{itemize}[noitemsep, topsep=0pt]
+  \item Core Areas: Machine Learning, Data Science, NLP, Computer Vision, Robotics
+\end{itemize}
+
+\textbf{\href{https://apps.uc.pt/courses/EN/course/362}{University of Coimbra}} -- Bachelor's in Informatics Engineering \hfill \textit{July 2024} \\
+\vspace{-4pt}
+\begin{itemize}[noitemsep, topsep=0pt]
+  \item Core Areas: Programming, Data Structures, Operating Systems, Databases
+\end{itemize}
+
+\textbf{\href{https://www.ua.pt/en/curso/452}{University of Aveiro}} -- Bachelor's in Tourism \hfill \textit{July 2015}
+
+\vspace{-8.5pt}
+
+\section*{Relevant Experience}
+\textbf{Engineering Consultant} -- \href{https://www.capgemini.com/pt-en/}{Capgemini Engineering} \hfill \textit{Dec 2024 -- Sep 2025} \\
+\vspace{-6pt}
+\begin{itemize}
+  \item Completed the Talent Factory Program in the Automotive domain, with training in Android Automotive OS, embedded systems, safety-oriented development, and application engineering.
+  \item Contributed to the development of infotainment features for Polestar vehicles, helping deliver seamless in-car user experiences for upcoming models.
+  \item Implemented production-grade features in Java and Kotlin, applying coroutines, extension functions, and modular architectural patterns to support clean, scalable, and maintainable code.
+  \item Worked within cross-functional Agile teams, contributing to sprint planning, backlog refinement, code reviews, and collaborative delivery workflows.
+  \item Used Git, Jira, and CI/CD pipelines as part of the day-to-day development lifecycle in a production environment.
+\end{itemize}
+
+\textbf{Digital Platform Lead} -- \href{https://turismoinaveiro.com}{Turismo in Aveiro} \hfill \textit{Jan 2015 -- Dec 2020} \\
+\vspace{-6pt}
+\begin{itemize}
+  \item Led the launch and management of a regional Online Travel Agency (OTA) platform, combining operations, customer focus, and business execution.
+  \item Oversaw website structure, e-commerce integration, and booking workflows to improve usability and operational efficiency.
+  \item Implemented CRM and digital marketing initiatives to strengthen online presence and support business growth.
+  \item Gained hands-on experience in digital product ownership, market positioning, and entrepreneurial decision-making.
+\end{itemize}
+
+\vspace{-18.5pt}
+
+\section*{Projects and Technical Interests}
+
+\textbf{Deepfake Face Classification} \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Implemented and evaluated deep learning models for real-vs-fake facial image classification, starting from a baseline convolutional approach and progressing to more advanced architectures.
+  \item Designed a preprocessing pipeline with face detection/cropping, augmentation, and dataset handling to support robust training and improve generalization.
+  \item Iteratively refined architecture and training choices based on intermediate results, with a strong focus on experimental comparison and performance evaluation.
+\end{itemize}
+
+\textbf{Evolutionary Algorithm for Vehicle Simulation} \\
+\vspace{-9pt}
+\begin{itemize}
+  \item Implemented key components of the EA, including parent selection, crossover, mutation, and fitness functions, focusing on attributes like vehicle speed and energy efficiency.
+  \item Conducted experiments across various configurations to fine-tune algorithm parameters, resulting in a progressive improvement in vehicle fitness through generations.
+\end{itemize}
+
+
+\vspace{-18.5pt}
+
+\section*{Technical Skills}
+\textbf{Languages:} Python, Java, Kotlin, C, C++ \\
+\textbf{AI \& Computer Vision:} Numpy, PyTorch, scikit-learn, OpenCV\\
+\textbf{Software Engineering:} Git, Docker, Linux, CI/CD
+\end{document}

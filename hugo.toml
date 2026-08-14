@@ -1,0 +1,67 @@
+baseURL = "https://johnny.pt/"
+languageCode = "en-us"
+title = "johnny.pt"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 10
+
+[imaging]
+  quality = 88
+
+[params]
+  defaultTheme = "dark"
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = true
+  ShowToc = false
+
+  [params.profileMode]
+    enabled = true
+    title = "Johnny Fernandes"
+    subtitle = "AI Engineer  \nCurrently pursuing a Master's in Artificial Intelligence at the University of Porto"
+    imageUrl = "images/profile.jpg"
+    imageWidth = 600
+    imageHeight = 600
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/jwhnny"
+
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:work@johnny.pt"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/johnnyalf"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params.assets]
+  favicon = "/favicon.svg"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 2
+  [[menu.main]]
+    identifier = "cv"
+    name = "CV"
+    url = "/cv.pdf"
+    weight = 3
